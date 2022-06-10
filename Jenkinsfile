@@ -8,7 +8,7 @@ pipeline {
 */
     environment {
         registry = "myjddocker/vproappdock"
-        registryCredential = 'myjddocker'
+        registryCredential = 'dockerhub'
     }
 
     stages{
